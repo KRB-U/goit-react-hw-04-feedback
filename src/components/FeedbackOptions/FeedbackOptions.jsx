@@ -15,12 +15,6 @@ const FeedbackOptions = ({ onLeaveFeedback, options }) => {
           {option.charAt(0).toUpperCase() + option.slice(1)}
         </Button>
       ))}
-
-      {/* {[key]: option[key]} */}
-
-      {/* <button onClick={() => onLeaveFeedback('good')}>Good</button>
-      <button onClick={() => onLeaveFeedback('neutral')}>Neutral</button>
-      <button onClick={() => onLeaveFeedback('bad')}>Bad</button> */}
     </DivButtonContainer>
   );
 };
